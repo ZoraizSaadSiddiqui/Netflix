@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Center</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .topics, .quick-links {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .box {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .box:hover {
+            background-color: #ddd;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 0.9rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(200, 10, 10);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>How can we help?</h1>
+        <input type="text" placeholder="Type a question, topic or issue">
+        
+        <h2>Recommended for you</h2>
+        <div class="topics">
+            <div class="box">How to sign up for Netflix</div>
+            <div class="box">Plans and Pricing</div>
+            <div class="box">Can't sign in to Netflix</div>
+            <div class="box">Parental controls on Netflix</div>
+        </div>
+
+        <h2>Explore Topics</h2>
+        <div class="topics">
+            <div class="box">Account Settings</div>
+            <div class="box">Billing Issues</div>
+            <div class="box">Error Codes</div>
+            <div class="box">Profiles & Features</div>
+        </div>
+
+        <h2>Quick Links</h2>
+        <div class="quick-links">
+            <div class="box">Request TV shows or movies</div>
+            <div class="box">Update Email</div>
+            <div class="box">Update Password</div>
+            <div class="box">Cancel Account</div>
+        </div>
+
+        <div class="footer">
+            <p><a href="#">Need more help? Contact Us</a></p>
+            <p>Terms of Use | Privacy | Cookie Preferences | Corporate Information</p>
+        </div>
+    </div>
+
+</body>
+</html>

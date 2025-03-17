@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+   
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header {
+    margin-top: 0%;
+    width: 100%;
+    height: 100%; 
+    position: relative;
+    padding:  3px 60px; 
+    display: flex;
+    flex-direction: column;
+    border-bottom: #ddd;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.logo {
+    width: 170px;
+    cursor: pointer;
+}
+.logo img {
+    width: 100%;
+   height:80px;
+}
+nav .btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+nav button {
+    color:rgb(164, 9, 9);
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 0.875rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+nav button:hover {
+    background-color: rgb(219, 10, 10);
+    color:white;
+}
+
+/* Register Page */
+.main{
+    margin-top: 30px;
+    align-content: center;
+ 
+}
+.main h1{
+    margin-top: 7px;
+}
+.main i {
+   
+    color: rgb(205, 11, 11);
+    font-size: 2rem; /* Adjust size if needed */
+}
+.main p{
+    margin-top: 20px;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+    margin-bottom: 8px;
+}.main button {
+    background-color: rgb(205, 11, 11);
+    color: white;
+    max-width: 500px;
+    width: 90%;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 20px; 
+    transition: background-color 0.3s ease;
+    margin-bottom: 30px;
+}
+.main button i {
+    color: #ddd;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+/* Register2.css */
+.maincontent {
+    margin-top: 50px;
+   display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.maincontent i{
+    color: rgb(180, 10, 10);
+    font-size: 30px; 
+}
+.maincontent h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.maincontent p {
+    font-size: 14px;
+    color: #555;
+}
+.maincontent h3 {
+    font-size:15px;
+    font-weight: bold; 
+}
+.email {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.email input {
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.email button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(205, 11, 11);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.email button i {
+    font-size: 16px;
+}
+.email button:hover {
+    background-color: rgb(180, 10, 10);
+}
+
+.plan {
+    display: flex;
+    justify-content: center; /* Aligns text to the left and "Change" to the right */
+    align-items: center; /* Keeps elements aligned properly */
+    max-width: 100%; /* Adjust as needed */
+  
+}
+
+.plan-text {
+    flex-grow: 1; /* Ensures the text stays on the left */
+    color: #000;
+}
+
+.change {
+    color: rgb(200, 10, 10); /* Makes "Change" red */
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 400px;
+  
+   
+}
+a{ 
+    color: aliceblue;
+    text-decoration: none;
+}
