@@ -86,12 +86,13 @@ main {
   transform: translateY(5px);
 }
 .help-section {
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 60%;
-  margin: 0 auto; /* Centers the section horizontally */
+  margin: 85px auto; /* Centers the section horizontally */
   text-align: center;
 }
 
