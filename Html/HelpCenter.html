@@ -4,42 +4,253 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Netflix Help Center</title>
+
+    <!-- FontAwesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+   
     <link rel="stylesheet" href="../Style/HelpCenter.css">
-
 </head>
 
 <body>
-    <Header>
+
+    <header>
         <nav>
             <div class="logo">
                 <img src="../assets/Netlogo.png" alt="Netflix Logo">
+                <h1>|Help Center</h1>
             </div>
-            <a href="SignIn.html">
-                <div class="btn">
-                    <button class="signin">Sign In</button>
-                </div>
-            </a>
+            <div class="btn">
+                <button class="signin" onclick="window.location.href='SignIn.html'">Sign In</button>
+            </div>
         </nav>
-    </Header>
-    <div class="container">
-        <h1>How can we help?</h1>
-        <div class="input-wrapper">
-            <i class="fa fa-magnifying-glass"></i>
-            <input type="text" placeholder="    Type a question, topic, or issue">
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>How can we help?</h1>
+            <div class="input-wrapper">
+                <i class="fa fa-magnifying-glass"></i>
+                <input type="text" placeholder="    Type a question, topic, or issue">
+            </div>
+            <p><strong>Recommended for you:</strong> How to sign up for Netflix, Plans and Pricing, Can't sign in
+                to<br> Netflix, Parental controls on Netflix</p>
         </div>
-        <p><strong>Recommended for you:</strong> How to sign up for Netflix, Plans and Pricing, Can't sign in to
-            Netflix, Parental controls on Netflix</p>
-    </div>
+
+        <h1 class="heading">Explore topics <i class="fa-solid fa-arrow-down"></i></h1>
+
+        <div class="help-section">
+            <div class="topic">
+                <div class="topic-header">
+                    <h2><i class="fa-regular fa-user" style="color: red ;margin: 5px ;"></i> Account and Billing</h2>
+                </div>
+                <hr>
+
+                <div class="topic-content">
+                    <p><strong>Account Settings</strong> <i class="fa-solid fa-chevron-down toggle-icon"></i></p>
+                    <div class="content">
+                        <p>How to change your plan</p>
+                        <p>How to cancel Netflix</p>
+                        <p>How to change or reset your password</p>
+                        <p>How to update Netflix account information</p>
+                        <p>Sharing your Netflix account</p>
+                        <p>How to keep your account secure</p>
+                    </div>
+                    <hr>
+                    <p><strong>Paying for Netflix</strong> <i class="fa-solid fa-chevron-down toggle-icon"></i></p>
+                    <div class="content">
+                        <p>Billing and Payments</p>
+                        <p>Netflix Gift Cards</p>
+                        <p>How to remove payment methods from your account</p>
+                        <p>How to find your billing date</p>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="topic">
+                <div class="topic-header">
+                    <h2><i class="fa-solid fa-wrench" style="color: red;margin: 5px"></i> Fix a Problem</h2>
+                </div>
+                <hr>
+                <div class="topic-content">
+                    <p><strong>Account Issues</strong> <i class="fa-solid fa-chevron-down toggle-icon"></i></p>
+                    <div class="content">
+                        <p>Can't sign in to Netflix</p>
+                        <p>Netflix says to sign up when trying to sign in</p>
+                        <p>Netflix says account is already in use</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="topic-content">
+                    <p><strong>Billing Issues</strong> <i class="fa-solid fa-chevron-down toggle-icon"></i></p>
+                    <div class="content">
+                        <p>Netflix says 'Your account is on hold because of a problem with your last<br> payment.'</p>
+                        <p>Unrecognized or unauthorized charges from Netflix</p>
+                        <p>Charged twice by Netflix</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="topic-content">
+                    <p><strong>Error Codes</strong> <i class="fa-solid fa-chevron-down toggle-icon"></i></p>
+                    <div class="content">
+                        <p>Netflix isn't working</p>
+                        <p>Netflix Error NW-2-5</p>
+                        <p>Netflix Error ui-800-3</p>
+                        <p>Netflix Error tvq-pb-101</p>
+                        <p>Netflix Error 113</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="topic-content">
+                    <p><strong>Problems Watching</strong> <i class="fa-solid fa-chevron-down toggle-icon"></i></p>
+                    <div class="content">
+                        <p>Fix a problem on your Android phone or tablet</p>
+                        <p>Fix a problem on your TV or streaming media player</p>
+                        <p>Netflix says, 'This app is not compatible with your device.'</p>
+                        <p>Browser isn't supported</p>
+                        <p>Black screen with sound</p>
+                    </div>
+
+                </div>
+            </div>
+            <hr>
 
 
+            <div class="topic">
+                <div class="topic-header">
+                    <h2><i class="fa-solid fa-laptop" style="color: rgb(138, 5, 138);margin: 5px"></i> Watching and playing</h2>
+                </div>
+                <hr>
+
+                <div class="topic-content">
+                    <p><strong>Profiles</strong> <i class="fa-solid fa-chevron-down toggle-icon"></i></p>
+                    <div class="content">
+                        <p>How to change the language on Netflix</p>
+                        <p>Profile transfers</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="topic-content">
+                    <p><strong>Features and Settings</strong> <i class="fa-solid fa-chevron-down toggle-icon"></i></p>
+                    <div class="content">
+                        <p>Using Netflix outside of your home</p>
+                        <p>How to get the best video quality</p>
+                        <p>How to use subtitles, captions, or choose audio language</p>
+                        <p>How to use 'My List'</p>
+                        <p>Accessibility on Netflix</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="topic-content">
+                    <p><strong>TV Shows and Movies</strong> <i class="fa-solid fa-chevron-down toggle-icon "
+                            style="color: blueviolet;"></i></p>
+                    <div class="content">
+                        <p>How to download titles to watch offline</p>
+                        <p>How to search and browse Netflix</p>
+                        <p>How to hide titles from viewing history</p>
+                        <p>How to remove titles from the 'Continue Watching' row</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="topic-content">
+                    <p><strong>Parental Controls</strong> <i class="fa-solid fa-chevron-down toggle-icon"></i></p>
+                    <div class="content">
+                        <p>Parental controls on Netflix</p>
+                        <p>How to add or remove a profile PIN</p>
+                        <p>How to set profile maturity ratings or block titles</p>
+                        <p>How to create a profile for kids</p>
+                    </div>
+                </div>
+<hr>
+                <div class="topic-content">
+                    <p><strong>Games</strong> <i class="fa-solid fa-chevron-down toggle-icon"></i></p>
+                    <div class="content">
+                        <p>Netflix Mobile Games</p>
+                        <p>How to find and install Netflix Games</p>
+
+                    </div>
+                </div>
+<hr>
+            </div>
+
+            <div class="topic">
+                <div class="topic-header">
+                    <h2><i class="fa-solid fa-rocket" style="color: rgb(13, 13, 139);margin: 5px"></i>Getting Started</h2>
+                </div>
+                <hr>
+
+                <div class="topic-content">
+                    <p><strong>Joining Netflix</strong> <i class="fa-solid fa-chevron-down toggle-icon"></i></p>
+                    <div class="content">
+                        <p>What is Netflix?</p>
+                        <p>How to pay for Netflix</p>
+                        <p>Getting started with Netflix</p>
+                        <p> Plans and Pricing</p>
+                        <p>Extra Members</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="topic-content">
+                    <p><strong>Device Setup</strong> <i class="fa-solid fa-chevron-down toggle-icon"></i></p>
+                    <div class="content">
+                        <p>Netflix supported browsers and system requirements</p>
+                        <p>How to download the Netflix app</p>
+                        <p>How to use Netflix on your Android phone or tablet</p>
+                        <p> How to watch Netflix on your TV</p>
+                        <p>How to use Netflix on your iPhone or iPad</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+        </div>
+        <div class="secondpart">
+            <h1>Quick Links</h1>
+            <hr>
+            <p><i class="fa-solid fa-lock"></i>Reset password</p>
+            <hr>
+            <p><i class="fa-regular fa-envelope"></i>Update email</p>
+            <hr>
+            <p><i class="fa-regular fa-circle-question"></i>Get help signing in</p>
+            <hr>
+            <p><i class="fa-regular fa-calendar"></i>Update payment method</p>
+            <hr>
+            <p><i class="fa-solid fa-location-arrow"></i>Request TV shows or movies</p>
+
+        </div>
+    </main>
+    <footer>
+        <button class="Ebtn">English<i class="fa-solid fa-caret-down"></i></button>
+       <div class="footer_content">
+
+            <p>Terms of Use</p>
+        <p>Privacy</p>
+        <p>Cookie Preferences</p>
+        <p>Corporate Information</p>
+        
+       </div>
+    </footer>
 
 
+    <script>
+        document.querySelectorAll(".toggle-icon").forEach(icon => {
+            icon.addEventListener("click", function () {
+                let content = this.parentElement.nextElementSibling;
+                if (content && content.classList.contains("content")) {
+                    content.classList.toggle("show");
+                    this.style.transform = content.classList.contains("show") ? "rotate(180deg)" : "rotate(0deg)";
+                }
+            });
+        });
 
+        document.querySelector(".heading i").addEventListener("click", function () {
+            document.querySelector(".help-section").scrollIntoView({ behavior: "smooth" });
+        });
+    </script>
 
 </body>
 
