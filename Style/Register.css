@@ -101,7 +101,8 @@ nav button:hover {
 }
 .main button i {
     color: #ddd;
-    margin-top: 15px;
+    margin-top: 8px;
+    margin-right: 10px;
     font-size: 20px;
 }
 
